@@ -4,6 +4,9 @@
   "description": "PHPMyAdmin-like linux server adminstration tool",
   "main": "index.js",
   "scripts": {
+    "dev:webserver": "nodemon --watch ./src -e ts --exec \"ts-node -T src/server\"",
+    "build": "tsc -p ./tsconfig.json",
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +20,16 @@
   },
   "homepage": "https://github.com/JayJayDee/LinuxMyAdmin#readme",
   "devDependencies": {
+    "@types/node": "^14.0.18",
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "eslint": "^7.4.0",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.12.2"
   }
 }
