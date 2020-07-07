@@ -1,0 +1,22 @@
+{
+  "name": "linuxmyadmin",
+  "version": "1.0.0",
+  "description": "PHPMyAdmin-like linux server adminstration tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayJayDee/LinuxMyAdmin.git"
+  },
+  "author": "JayJayDee <jindongp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayJayDee/LinuxMyAdmin/issues"
+  },
+  "homepage": "https://github.com/JayJayDee/LinuxMyAdmin#readme",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
+}
