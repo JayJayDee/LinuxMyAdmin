@@ -30,6 +30,6 @@
   },
   "dependencies": {
     "class-transformer": "^0.2.3",
-    "class-validator": "^0.12.2"
+    "class-validator": "^0.14.0"
   }
 }
